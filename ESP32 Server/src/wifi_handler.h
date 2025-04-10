@@ -2,6 +2,7 @@
 #define WIFI_HANDLER_H
 
 void connectToWiFi();
-void printMACAddress();
+bool isWiFiConnected();
+void disconnectWiFi();
 
 #endif
