@@ -79,4 +79,6 @@ Pesan dari sender berhasil diterima oleh server dan meneruskannya ke Telegram te
 </div>
 
 ## Final Log
+<div align="justify">
 v0.1.0 mungking sudah sedikit lebih stabil dari versi terdahulunya akan tetapi sering terjadi error saat pesan di teruskan ke telegram penyebannya mungkin koneksi wifi yang kurang stabil, di update selanjutnya akan mencoba menstabilkan sistem untuk kirim ke telegram dan juga mencoba mingirim data berupa gambar.
+</div>
