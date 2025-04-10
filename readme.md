@@ -23,14 +23,14 @@ Tujuan dari proyek ini adalah membangun sebuah sistem berbasis ESP32 yang mampu 
 ## Update Log - 10 April 2025 (v0.1.0)
 <div align="justify">
 
-Pada versi awal proyek ini v0.1.0, ESP32 sender telah berhasil mengirimkan pesan sederhana berupa teks menggunakan modul ESP-NOW. ESP32 server juga telah mampu menerima pesan tersebut dengan baik dan meneruskannya secara sukses ke akun Telegram pengguna. Pengujian awal menunjukkan bahwa komunikasi antar perangkat ESP32 berjalan cukup lancar untuk data ringan, dan integrasi dengan API Telegram sudah sedikit lebih stabil dari versi awalnya. Versi ini menandai dasar sistem komunikasi dan notifikasi real-time, yang selanjutnya akan dikembangkan untuk mendukung pengiriman data gambar serta deteksi gerakan dengan sensor PIR.
+Update Selanjutnya v0.1.0, ESP32 sender telah berhasil mengirimkan pesan sederhana berupa teks menggunakan modul ESP-NOW. ESP32 server juga telah mampu menerima pesan tersebut dengan baik dan meneruskannya secara sukses ke akun Telegram pengguna. Pengujian awal menunjukkan bahwa komunikasi antar perangkat ESP32 berjalan cukup lancar untuk data ringan, dan integrasi dengan API Telegram sudah sedikit lebih stabil dari versi awalnya. Versi ini menandai dasar sistem komunikasi dan notifikasi real-time, yang selanjutnya akan dikembangkan untuk mendukung pengiriman data gambar serta deteksi gerakan dengan sensor PIR.
 
 </div>
 
 ## Bug Report - 10 April 2025 (v0.1.0)
 <div align="justify">
 
-Pada tahap awal versi v0.1.0, ESP32 sender sudah berhasil mengirimkan pesan teks sederhana menggunakan protokol ESP-NOW, dan ESP32 server telah berhasil menerimanya, dan juga sudah bisa meneruskannya ke Telegram tapi kadang terjadi error ketika mengirim data tersebut ke telegram.
+Pada Versi ini v0.1.0, ESP32 sender sudah berhasil mengirimkan pesan teks sederhana menggunakan protokol ESP-NOW, dan ESP32 server telah berhasil menerimanya, dan juga sudah bisa meneruskannya ke Telegram tapi kadang terjadi error ketika mengirim data tersebut ke telegram.
 
 ### Log Error Pengunaan
 1. Jalankan ESP32 sender dan server.
