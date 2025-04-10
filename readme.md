@@ -20,17 +20,17 @@ Tujuan dari proyek ini adalah membangun sebuah sistem berbasis ESP32 yang mampu 
 
 </div>
 
-## Update Log - 24 Maret 2025 (v0.0.1)
+## Update Log - 24 Maret 2025 (v0.0.1-Beta)
 <div align="justify">
 
-Pada versi awal proyek ini (v0.01), ESP32 sender telah berhasil mengirimkan pesan sederhana berupa teks menggunakan modul ESP-NOW. Sementara itu, ESP32 yang berperan sebagai server juga sudah mampu menerima pesan tersebut dengan baik. Pengujian awal menunjukkan komunikasi antar perangkat ESP32 berjalan lancar untuk data ringan. Namun, pada tahap ini, pengiriman data dari server ke Telegram masih belum berhasil, sehingga proses notifikasi ke pengguna belum dapat dilakukan. Kendala ini menjadi fokus utama untuk pengembangan versi selanjutnya, terutama dalam integrasi ESP32 dengan API Telegram secara stabil.
+Pada versi awal proyek ini (v0.0.1-Beta), ESP32 sender telah berhasil mengirimkan pesan sederhana berupa teks menggunakan modul ESP-NOW. Sementara itu, ESP32 yang berperan sebagai server juga sudah mampu menerima pesan tersebut dengan baik. Pengujian awal menunjukkan komunikasi antar perangkat ESP32 berjalan lancar untuk data ringan. Namun, pada tahap ini, pengiriman data dari server ke Telegram masih belum berhasil, sehingga proses notifikasi ke pengguna belum dapat dilakukan. Kendala ini menjadi fokus utama untuk pengembangan versi selanjutnya, terutama dalam integrasi ESP32 dengan API Telegram secara stabil.
 
 </div>
 
-## Bug Report - 24 Maret 2025 (v0.0.1)
+## Bug Report - 24 Maret 2025 (v0.0.1-Beta)
 <div align="justify">
 
-Pada tahap awal versi v0.0.1, ESP32 sender sudah berhasil mengirimkan pesan teks sederhana menggunakan protokol ESP-NOW, dan ESP32 server telah berhasil menerimanya. Namun, saat server mencoba meneruskan pesan tersebut ke akun Telegram pengguna menggunakan Bot API, ESP server gagal meneruskan pesan dari sender ke telegram.
+Pada tahap awal versi v0.0.1-Beta, ESP32 sender sudah berhasil mengirimkan pesan teks sederhana menggunakan protokol ESP-NOW, dan ESP32 server telah berhasil menerimanya. Namun, saat server mencoba meneruskan pesan tersebut ke akun Telegram pengguna menggunakan Bot API, ESP server gagal meneruskan pesan dari sender ke telegram.
 
 ### Log Error Pengunaan
 1. Jalankan ESP32 sender dan server.
