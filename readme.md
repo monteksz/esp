@@ -79,4 +79,4 @@ Pesan dari sender berhasil diterima oleh server tapi server tidak bisa meneruska
 </div>
 
 ## Final Log
-Pondasi awal untuk v0.0.1 tidak sepenuhnya berhasil akan tetapi akan di update secepatnya agar proyek ini dapat berjalan dengan semestinya.
+Pondasi awal untuk v0.0.1-Beta tidak sepenuhnya berhasil akan tetapi akan di update secepatnya agar proyek ini dapat berjalan dengan semestinya.
